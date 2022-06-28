@@ -4,7 +4,16 @@ import MultiButton from "./MultiButton";
 import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
 
+// function Clickable({ onClick }) {
+// return <button onClick={onClick}>Click Me</button>;
+// }
+
 function App() {
+  // This is an example of using an event handler within 'App' for the 'Clickable' component above:
+  // function handleClick() {
+  // console.log("click");
+  // }
+
   return (
     <div>
       <h3>onClick</h3>

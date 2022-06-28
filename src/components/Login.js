@@ -4,6 +4,7 @@ function Login() {
   function handleSubmit(event) {
     event.preventDefault();
     console.log("I submit");
+    console.log(event.target);
   }
 
   return (
